@@ -1,4 +1,4 @@
-"""
+
 # For number of lines
 def file_lengthy(fname):
         with open(fname) as f:
@@ -13,6 +13,3 @@ d = defaultdict(int)
 for word in open('testfile.txt').read().split():
 	d[word] += 1
 print(d)
-
-
-"""
